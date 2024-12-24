@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Local Bites restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Local Bites Restaurant</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:(414) 857 - 0017">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>2324343384</p>
+                </a>
+
+                <a href="mailto:yummy@bistrobliss.com">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>ghostfreak0412@gmail.com</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+                <img src="../img/japanese-food.svg" alt="Local Bites Restaurant">
+                <h2>Local Bites</h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+
+                <a href="./contact.html" class="basicBtn">Book A Table</a>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <section>
+        <h1>Our Menu</h1>
+        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        </p>
+
+        <div class="menu-tabs flex">
+            <p class="menu-tab active-tab">All</p>
+            <p class="menu-tab">Breakfast</p>
+            <p class="menu-tab">Main Dishes</p>
+            <p class="menu-tab">Drinks</p>
+            <p class="menu-tab">Desserts</p>
+        </div>
+
+        <section class="flex">
+            <div class="menu-item" data-type="breakfast">
+                <img src="../img/burger.jpg"
+                    alt="Avocado Toast" loading="lazy">
+                <p class="price">₹220</p>
+                <h3>burger</h3>
+                <p class="lightText">Made with toasted bread, avocado, eggs, lettuce, salt, oil and other ingredients.
+                </p>
+            </div>
+            <div class="menu-item" data-type="breakfast">
+                <img src="https://images.unsplash.com/photo-1582169505937-b9992bd01ed9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZWdnc3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Fried Eggs" loading="lazy">
+                <p class="price">₹140</p>
+                <h3>Fried Eggs</h3>
+                <p class="lightText">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+            <div class="menu-item" data-type="main dishes">
+                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhc3RhfGVufDB8fDB8fHww"
+                    alt="Pasta with Shrimp" loading="lazy">
+                <p class="price">₹860</p>
+                <h3>Pasta with Shrimp</h3>
+                <p class="lightText">Made with shrimp, pasta, and other ingredients and spices</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="../img/delicious-indian-food-tray.jpg"
+                    alt="Special veg thali" loading="lazy">
+                <p class="price">₹650</p>
+                <h3>Special veg thali</h3>
+                <p class="lightText">Made with Dal , Chana masala, rice, Raita, Dessert, mixed veggie curry</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="../img/lassi.jpeg"
+                    alt="lassi" loading="lazy">
+                <p class="price">₹270</p>
+                <h3>Lassi</h3>
+                <p class="lightText">Made with vodka and coconuts</p>
+            </div>
+            <div class="menu-item" data-type="desserts">
+                <img src="../img/kulfi.jpeg"
+                    alt="Kulfi" loading="lazy">
+                <p class="price">₹80</p>
+                <h3>Kulfi</h3>
+                <p class="lightText">Made with cocoa, vanilla bean, Mascarpone cheese and other ingredients</p>
+            </div>
+            <div class="menu-item" data-type="main dishes">
+                <img src="../img/veg_thali.png"
+                    alt="Spaghetti Bolognese" loading="lazy">
+                <p class="price">₹550</p>
+                <h3>Veg Thali</h3>
+                <p>Made with Dal , Chana masala, rice, Raita, Dessert, mixed veggie curry  </p>
+            </div>
+            <div class="menu-item" data-type="breakfast">
+                <img src="../img/samosa.jpeg"
+                    alt="Samosa" loading="lazy">
+                <p class="price">₹90</p>
+                <h3>Samosa</h3>
+                <p>Made with potatoes , besan flour, butter, and other ingredients.</p>
+            </div>
+
+            <div class="menu-item" data-type="breakfast">
+                <img src="../img/franky.jpeg"
+                    alt="franky" loading="lazy">
+                <p class="price">₹100</p>
+                <h3>franky</h3>
+                <p>Made with potatoes , besan flour, butter, and other ingredients.</p>
+            </div>
+
+            <div class="menu-item" data-type="breakfast">
+                <img src="../img/paratha.jpeg"
+                    alt="Paratha" loading="lazy">
+                <p class="price">₹130</p>
+                <h3>Paratha</h3>
+                <p>Made with potatoes, vegetables, wheat flour, butter, and other ingredients.</p>
+            </div>
+
+            <div class="menu-item" data-type="breakfast">
+                <img src="../img/vadapav.jpeg"
+                    alt="Vadapav" loading="lazy">
+                <p class="price">₹20</p>
+                <h3>Vadapav</h3>
+                <p>Made with potatoes , pav, besan flour, butter, and other ingredients.</p>
+            </div>
+
+            <div class="menu-item" data-type="desserts">
+                <img src="https://images.unsplash.com/photo-1619985632461-f33748ef8f3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hlZXNlY2FrZXxlbnwwfDB8MHx8fDA%3D"
+                    alt="Cheesecake" loading="lazy">
+                <p class="price">₹470</p>
+                <h3>Cheesecake</h3>
+                <p>Made with cottage cheese, mixed berries and other ingredients</p>
+            </div>
+
+            <div class="menu-item" data-type="desserts">
+                <img src="../img/GULAB JAMUN.jpeg"
+                    alt="GULAB JAMUN" loading="lazy">
+                <p class="price">₹80</p>
+                <h3>Gulab Jamun</h3>
+                <p>Made with cottage cheese, mixed berries and other ingredients</p>
+            </div>
+            
+
+            <div class="menu-item" data-type="drinks">
+                <img src="../img/massala_lassi.jpeg"
+                    alt="masala lassi" loading="lazy">
+                <p class="price">₹80</p>
+                <h3>Massala Lassi</h3>
+                <p>We serve whiskey</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHwwfDB8fHww"
+                    alt="Pizza" loading="lazy">
+                <p class="price">₹270</p>
+                <h3>Pizza</h3>
+                <p>Made with ground beef, chicken, BBQ and other ingredients</p>
+            </div>
+            <div class="menu-item" data-type="desserts">
+                <img src="https://images.unsplash.com/photo-1560801619-01d71da0f70c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aWNlJTIwY3JlYW18ZW58MHwwfDB8fHww"
+                    alt="Ice Cream" loading="lazy">
+                <p class="price">120</p>
+                <h3>Ice Cream</h3>
+                <p>Available in vanilla, strawberry, chocolate, mint and pistachio</p>
+            </div>
+
+            <div class="menu-item" data-type="desserts">
+                <img src="../img/img-5.jpg"
+                    alt="Pestry" loading="lazy">
+                <p class="price">130</p>
+                <h3>Pestry</h3>
+                <p>Available in vanilla, strawberry, chocolate, mint and pistachio</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="../img/badamShake.jpeg"
+                    alt="badam shake" loading="lazy">
+                <p class="price">₹150</p>
+                <h3>Badam Shake</h3>
+                <p>Badam Shake, With dry fruits</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="../img/japanese-food.png" alt="Local Bites Restaurant">
+                <h2 class="heading">Local Bites</h2>
+            </div>
+            <p>In the new era of technology we look at the future with certainty and pride for our company.</p>
+            <div class="socials flex">
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+        </div>
+
+        <ul>
+            <li class="heading">Pages</li>
+            <li><a href="../">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html">Pricing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li class="heading">Utility Pages</li>
+            <li>Start Here</li>
+            <li>Styleguide</li>
+            <li>Password Protected</li>
+            <li>404 Not Found</li>
+            <li>Licenses</li>
+            <li>Changelog</li>
+            <li>View More</li>
+        </ul>
+
+        <div>
+            <p class="heading">Follow Us On Instagram</p>
+            <div class="grid">
+                <img src="../img/pexels-steve-3789885 1.png" alt="hot noodles">
+                <img src="../img/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png" alt="fries">
+                <img src="../img/pexels-ella-olsson-1640772 1.png" alt="fried potatoes">
+                <img src="../img/pexels-ash-376464 1.png" alt="pancakes with syrup">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

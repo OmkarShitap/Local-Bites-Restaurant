@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Local Bites restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Local Bites Restaurant</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:9100000987">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>9100000987</p>
+                </a>
+
+                <a href="mailto:yummy@bistrobliss.com">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>ghostfreak0412@gmail.com</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="./" class="logo flex">
+                <img src="./img/japanese-food.svg" alt="Bistro Bliss Restaurant">
+                <h2>Local Bites</h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="./">Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/menu.html">Menu</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+
+
+                <!-- <button class="basicBtn">Book A Table</button> -->
+                <a href="./pages/contact.html" class="basicBtn">Book A Table</a>
+
+            <!-- In the Navigation Bar -->
+                <!-- <li>
+                    <button style="background-color: rgba(255, 174, 0, 0.664);" id="loginButton" class="basicBtn">Login</button>
+                    <button id="logoutButton" class="basicBtn" style="display:none;">Logout</button>
+                </li> -->
+
+
+                <!-- HTML -->
+                    <!-- <button id="loginButton" style="display: none;" class="basicBtn">Login</button>
+                    <button id="logoutButton" class="basicBtn">Logout</button> -->
+                    <a href="./pages/auth.html" class="basicBtn ctaBtn">Login</a>  
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+
+    <section class="heroSection">
+        <div>
+            <h1>Best Food for Your Taste</h1>
+            <p>Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
+            <div>
+                <a href="./pages/contact.html" class="basicBtn ctaBtn">Book a Table</a>
+                <a href="./pages/menu.html" class="basicBtn">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Browse our Menu</h2>
+        <div class="flex">
+            <div>
+                <img src="./img/tea 1.png" alt="breakfast">
+                <h3>Breakfast</h3>
+                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a href="./pages/menu.html">Explore Menu</a>
+            </div>
+            <div>
+                <img src="./img/Vector.png" alt="main dishes">
+                <h3>Main Dishes</h3>
+                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a href="./pages/menu.html">Explore Menu</a>
+            </div>
+            <div>
+                <img src="./img/Vector (1).png" alt="Drinks">
+                <h3>Drinks</h3>
+                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a href="./pages/menu.html">Explore Menu</a>
+            </div>
+            <div>
+                <img src="./img/Vector (2).png" alt="Desserts">
+                <h3>Desserts</h3>
+                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <a href="./pages/menu.html">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex sect3">
+        <div>
+            <div class="image"></div>
+            <div class="contact">
+                <h3>Come and Visit Us</h4>
+                    <a href="9100000987" class="flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>9100000987</p>
+                    </a>
+
+                    <a href="mailto:yummy@bistrobliss.com" class="flex">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>ghostfreak0412@gmail.com</p>
+                    </a>
+
+                    <a href="mailto:yummy@bistrobliss.com" class="flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pimpari Chinchwad, Dange Chowk, 123-123 </p>
+                    </a>
+            </div>
+        </div>
+        <div>
+            <h2>We provide healthy food for your family.</h2>
+            <p>Our story began with a vision to create a unique dining experience that merges fine dining, exceptional
+                service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots
+                while infusing a global palate.</p>
+            <p class="lightText">At place, we believe that dining is not just about food, but also about the overall
+                experience. Our staff, renowned for their warmth and dedication, strives to make every visit an
+                unforgettable event.</p>
+            <button class="basicBtn">More About Us</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>We also offer unique services for your events</h2>
+        <div class="flex events">
+            <div>
+                <img src="./img/kebab-set-table 1.png" alt="Catering">
+                <h3>Catering</h3>
+                <p>In the new era of technology we look in the future with certainty for life.</p>
+            </div>
+            <div>
+                <img src="./img/bday.jpg" alt="Birthdays">
+                <h3>Birthdays</h3>
+                <p>In the new era of technology we look in the future with certainty for life.</p>
+            </div>
+            <div>
+                <!-- <img src="./img/bday.jpg" alt="Weddings"> -->
+                <img src="./img/happy-man-wife-sunny-day 1.png" alt="Weddings">
+                <h3>Weddings</h3>
+                <p>In the new era of technology we look in the future with certainty for life.</p>
+            </div>
+            <div>
+                <img src="./img/group-friends-eating-restaurant 1.png" alt="Events">
+                <h3>Events</h3>
+                <p>In the new era of technology we look in the future with certainty for life.</p>
+            </div>
+        </div>
+    </section>
+    <section class="flex gray-bkg section-with-grid">
+        <div class="parent">
+            <div class="div1">
+                <img src="./img/mid-shot-chef-holding-plate-with-pasta-making-ok-sign 1.png" alt="Chef" loading="lazy">
+            </div>
+
+            <div  class="div3">
+                <img style="border-radius: 8px;" src="./img/burger.jpg"
+                alt="Sadj Iron Pot" loading="lazy">
+            </div>
+            <div class="div2">
+                <img style="border-radius: 8px;" src="./img/image 111.png"
+                alt="Sadj Iron Pot" loading="lazy">
+
+            </div>
+        </div>
+        <div>
+        <h2>Fastest Food<br>Delivery in the City</h2>
+            <p>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop.
+            </p>
+            <div class="icon-list flex">
+                <i class="fa-regular fa-clock"></i>
+                <p>Delivery within 30 Minutes</p>
+            </div>
+            <div class="icon-list flex">
+                <i class="fa-solid fa-receipt"></i>
+                <p>Best Offers and Prices</p>
+            </div>
+            <div class="icon-list flex">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Online Services Available</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="review-cards flex">
+            <div class="gray-bkg">
+                <h3>“The best restaurant”</h3>
+                <p>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were
+                    enveloped in an inviting atmosphere and greeted with warm smiles.</p>
+
+                <div class="divider"></div>
+                <div class="author flex">
+                    <img src="https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Shraddha" loading="lazy">
+                    <div class="name">
+                        <h4>Shraddha Kapoor</h4>
+                        <p class="lightText">Mumbai</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="gray-bkg">
+                <h3>“Simply delicious”</h3>
+                <p>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect
+                    venue for our anniversary dinner. Each dish was prepared and beautifully presented.</p>
+
+                <div class="divider"></div>
+                <div class="author flex">
+                    <img src="https://images.pexels.com/photos/3406022/pexels-photo-3406022.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Varun Dhavan" loading="lazy">
+                    <div class="name">
+                        <h4>Varun Dhavan</h4>
+                        <p class="lightText">Pune</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gray-bkg">
+                <h3>“One of a kind restaurant”</h3>
+                <p>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing
+                    short of extraordinary. The food was the highlight of our evening. Highly recommended.</p>
+                <div class="divider"></div>
+                <div class="author flex">
+                    <img src="https://images.pexels.com/photos/3021563/pexels-photo-3021563.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="alia bhatt" loading="lazy">
+                    <div class="name">
+                        <h4>alia bhatt</h4>
+                        <p class="lightText">Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="./img/japanese-food.png" alt="Bistro Bliss Restaurant">
+                <h2 class="heading">Local Bites</h2>
+            </div>
+            <p>In the new era of technology we look at the future with certainty and pride for our company.</p>
+            <div class="socials flex">
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+        </div>
+
+        <ul>
+            <li class="heading">Pages</li>
+            <li><a href="./">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/menu.html">Menu</a></li>
+            <li><a href="./pages/menu.html">Pricing</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li class="heading">Utility Pages</li>
+            <li>Start Here</li>
+            <li>Styleguide</li>
+            <li>Password Protected</li>
+            <li>404 Not Found</li>
+            <li>Licenses</li>
+            <li>Changelog</li>
+            <li>View More</li>
+        </ul>
+
+        <div>
+            <p class="heading">Follow Us On Instagram</p>
+            <div class="grid">
+                <img src="./img/pexels-steve-3789885 1.png" alt="hot noodles">
+                <img src="./img/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png" alt="fries">
+                <img src="./img/pexels-ella-olsson-1640772 1.png" alt="fried potatoes">
+                <img src="./img/pexels-ash-376464 1.png" alt="pancakes with syrup">
+            </div>
+        </div>
+
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/firebaseauth.js"></script>
+</body>
+
+</html>
